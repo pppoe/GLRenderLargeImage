@@ -10,8 +10,10 @@
 
 @interface GLImageViewer : MPGLView {
     GLuint texture;
+    CGRect textureRect;
 }
 
 - (void)showImageNamed:(NSString *)imageNamed;
+- (void)moveToImagePart:(CGRect)partRect;
 
 @end

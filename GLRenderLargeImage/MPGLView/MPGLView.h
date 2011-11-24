@@ -57,6 +57,7 @@
 
 //< Draw Image in the glSize to texture, glSize width/height is power of 2
 + (GLuint)textureFromImage:(UIImage *)image withGLSize:(CGSize)glSize;
++ (GLuint)textureFromFillImage:(UIImage *)image withGLSize:(CGSize)glSize;
 
 //< return glSize, width/height is power of 2
 + (CGSize)textureSizeForImage:(UIImage *)image;

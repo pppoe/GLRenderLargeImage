@@ -197,6 +197,38 @@
     return texture;
 }
 
++ (GLuint)textureFromFillImage:(UIImage *)image withGLSize:(CGSize)glSize {
+    GLuint texture;
+    glGenTextures(1, &texture);
+    glBindTexture(GL_TEXTURE_2D, texture);
+    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_NEAREST); 
+    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MAG_FILTER,GL_NEAREST); 
+    
+    GLuint width = glSize.width;
+    GLuint height = glSize.height;
+    
+    void *imageData = malloc(height * width * 4);
+    
+    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+    CGContextRef bitMapcontext = CGBitmapContextCreate(imageData, width, height, 
+                                                       8, 4 * width, 
+                                                       colorSpace, 
+                                                       kCGImageAlphaPremultipliedLast | kCGBitmapByteOrder32Big );
+    
+    CGColorSpaceRelease(colorSpace);
+    CGContextClearRect(bitMapcontext, CGRectMake( 0, 0, width, height));
+    UIGraphicsPushContext(bitMapcontext);
+    [image drawInRect:CGRectMake(0, 0, width, height)];
+    UIGraphicsPopContext();
+    
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, imageData);
+    
+    CGContextRelease(bitMapcontext);        
+    free(imageData);        
+    
+    return texture;
+}
+
 //< return glSize, width/height is power of 2
 + (CGSize)textureSizeForImage:(UIImage *)image {
     CGSize size = image.size;
