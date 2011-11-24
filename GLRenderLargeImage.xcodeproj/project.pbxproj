@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4609FFBC147CF92100464E4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4609FFBB147CF92100464E4C /* UIKit.framework */; };
+		4609FFBE147CF92100464E4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4609FFBD147CF92100464E4C /* Foundation.framework */; };
+		4609FFC0147CF92100464E4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4609FFBF147CF92100464E4C /* CoreGraphics.framework */; };
+		4609FFC6147CF92100464E4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4609FFC4147CF92100464E4C /* InfoPlist.strings */; };
+		4609FFC8147CF92100464E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4609FFC7147CF92100464E4C /* main.m */; };
+		4609FFCC147CF92100464E4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4609FFCB147CF92100464E4C /* AppDelegate.m */; };
+		4609FFD7147CF97400464E4C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4609FFD6147CF97400464E4C /* OpenGLES.framework */; };
+		4609FFD9147CF98600464E4C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4609FFD8147CF98600464E4C /* QuartzCore.framework */; };
+		46610E01147E346B001ACD72 /* MPGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46610DFF147E346B001ACD72 /* MPGLView.m */; };
+		46610E05147E3487001ACD72 /* GLImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46610E04147E3487001ACD72 /* GLImageViewer.m */; };
+		46E96220147DE8750003B0AC /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46E9621F147DE8750003B0AC /* pic.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4609FFB7147CF92100464E4C /* GLRenderLargeImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLRenderLargeImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4609FFBB147CF92100464E4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4609FFBD147CF92100464E4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4609FFBF147CF92100464E4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4609FFC3147CF92100464E4C /* GLRenderLargeImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLRenderLargeImage-Info.plist"; sourceTree = "<group>"; };
+		4609FFC5147CF92100464E4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4609FFC7147CF92100464E4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4609FFC9147CF92100464E4C /* GLRenderLargeImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLRenderLargeImage-Prefix.pch"; sourceTree = "<group>"; };
+		4609FFCA147CF92100464E4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4609FFCB147CF92100464E4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4609FFD6147CF97400464E4C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4609FFD8147CF98600464E4C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		46610DFE147E346B001ACD72 /* MPGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPGLView.h; sourceTree = "<group>"; };
+		46610DFF147E346B001ACD72 /* MPGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPGLView.m; sourceTree = "<group>"; };
+		46610E03147E3487001ACD72 /* GLImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLImageViewer.h; sourceTree = "<group>"; };
+		46610E04147E3487001ACD72 /* GLImageViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLImageViewer.m; sourceTree = "<group>"; };
+		46E9621F147DE8750003B0AC /* pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4609FFB4147CF92100464E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4609FFD9147CF98600464E4C /* QuartzCore.framework in Frameworks */,
+				4609FFD7147CF97400464E4C /* OpenGLES.framework in Frameworks */,
+				4609FFBC147CF92100464E4C /* UIKit.framework in Frameworks */,
+				4609FFBE147CF92100464E4C /* Foundation.framework in Frameworks */,
+				4609FFC0147CF92100464E4C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4609FFAC147CF92000464E4C = {
+			isa = PBXGroup;
+			children = (
+				46610E02147E3473001ACD72 /* Demo */,
+				46610DFB147E346B001ACD72 /* MPGLView */,
+				4609FFC1147CF92100464E4C /* GLRenderLargeImage */,
+				4609FFBA147CF92100464E4C /* Frameworks */,
+				4609FFB8147CF92100464E4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4609FFB8147CF92100464E4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4609FFB7147CF92100464E4C /* GLRenderLargeImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4609FFBA147CF92100464E4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4609FFD8147CF98600464E4C /* QuartzCore.framework */,
+				4609FFD6147CF97400464E4C /* OpenGLES.framework */,
+				4609FFBB147CF92100464E4C /* UIKit.framework */,
+				4609FFBD147CF92100464E4C /* Foundation.framework */,
+				4609FFBF147CF92100464E4C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4609FFC1147CF92100464E4C /* GLRenderLargeImage */ = {
+			isa = PBXGroup;
+			children = (
+				4609FFCA147CF92100464E4C /* AppDelegate.h */,
+				4609FFCB147CF92100464E4C /* AppDelegate.m */,
+				4609FFC2147CF92100464E4C /* Supporting Files */,
+			);
+			path = GLRenderLargeImage;
+			sourceTree = "<group>";
+		};
+		4609FFC2147CF92100464E4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4609FFC3147CF92100464E4C /* GLRenderLargeImage-Info.plist */,
+				4609FFC4147CF92100464E4C /* InfoPlist.strings */,
+				4609FFC7147CF92100464E4C /* main.m */,
+				4609FFC9147CF92100464E4C /* GLRenderLargeImage-Prefix.pch */,
+				46E9621F147DE8750003B0AC /* pic.jpg */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46610DFB147E346B001ACD72 /* MPGLView */ = {
+			isa = PBXGroup;
+			children = (
+				46610DFE147E346B001ACD72 /* MPGLView.h */,
+				46610DFF147E346B001ACD72 /* MPGLView.m */,
+			);
+			name = MPGLView;
+			path = GLRenderLargeImage/MPGLView;
+			sourceTree = "<group>";
+		};
+		46610E02147E3473001ACD72 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				46610E03147E3487001ACD72 /* GLImageViewer.h */,
+				46610E04147E3487001ACD72 /* GLImageViewer.m */,
+			);
+			name = Demo;
+			path = GLRenderLargeImage/Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4609FFB6147CF92100464E4C /* GLRenderLargeImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4609FFCF147CF92100464E4C /* Build configuration list for PBXNativeTarget "GLRenderLargeImage" */;
+			buildPhases = (
+				4609FFB3147CF92100464E4C /* Sources */,
+				4609FFB4147CF92100464E4C /* Frameworks */,
+				4609FFB5147CF92100464E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLRenderLargeImage;
+			productName = GLRenderLargeImage;
+			productReference = 4609FFB7147CF92100464E4C /* GLRenderLargeImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4609FFAE147CF92100464E4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = DEV;
+			};
+			buildConfigurationList = 4609FFB1147CF92100464E4C /* Build configuration list for PBXProject "GLRenderLargeImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4609FFAC147CF92000464E4C;
+			productRefGroup = 4609FFB8147CF92100464E4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4609FFB6147CF92100464E4C /* GLRenderLargeImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4609FFB5147CF92100464E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4609FFC6147CF92100464E4C /* InfoPlist.strings in Resources */,
+				46E96220147DE8750003B0AC /* pic.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4609FFB3147CF92100464E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4609FFC8147CF92100464E4C /* main.m in Sources */,
+				4609FFCC147CF92100464E4C /* AppDelegate.m in Sources */,
+				46610E01147E346B001ACD72 /* MPGLView.m in Sources */,
+				46610E05147E3487001ACD72 /* GLImageViewer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4609FFC4147CF92100464E4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4609FFC5147CF92100464E4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4609FFCD147CF92100464E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4609FFCE147CF92100464E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4609FFD0147CF92100464E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLRenderLargeImage/GLRenderLargeImage-Prefix.pch";
+				INFOPLIST_FILE = "GLRenderLargeImage/GLRenderLargeImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4609FFD1147CF92100464E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLRenderLargeImage/GLRenderLargeImage-Prefix.pch";
+				INFOPLIST_FILE = "GLRenderLargeImage/GLRenderLargeImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4609FFB1147CF92100464E4C /* Build configuration list for PBXProject "GLRenderLargeImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4609FFCD147CF92100464E4C /* Debug */,
+				4609FFCE147CF92100464E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4609FFCF147CF92100464E4C /* Build configuration list for PBXNativeTarget "GLRenderLargeImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4609FFD0147CF92100464E4C /* Debug */,
+				4609FFD1147CF92100464E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4609FFAE147CF92100464E4C /* Project object */;
+}
